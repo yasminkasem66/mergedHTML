@@ -1,0 +1,45 @@
+$rainbow: purple aqua lime yellow orange red;
+// @for <variable> from <expression> to <expression> { ... } 
+//or @for <variable> from <expression> through <expression> { ... },
+
+
+// @for $i from 1 through 6 {
+// 	li:nth-child(#{$i}) {
+// 		color: nth($rainbow, $i);
+// 	}
+// }
+
+@for $i from 1 through 6 {
+	.test#{$i}{
+		color: nth($rainbow, $i);
+	}
+}
+
+
+
+
+li {
+	font-family: 'Courier New';
+	font-size: 18px;
+}
+
+body {
+	background: #1D1F20;
+}
+
+// @mixin textcoor() {
+// 	@for $i from 1 through 6 {
+// 		color: nth($rainbow, $i);
+	
+// }	
+// }
+
+// .t1{
+// 	@include textcoor
+// }
+
+// .t2{
+// 	@include textcoor
+// }
+
+
