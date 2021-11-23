@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- cdn Icon  .fontawesome.-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- cdn bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custome css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- advertisment -->
+    <div class="container-fluid navImg" id="ads ">
+        <div class="row">
+            <img src="imgs/ads.jpeg">
+        </div>
+    </div>
+   <!-- start nav -->
+
+    <nav class="p-3 bg-light border-bottom align-middle" id="Sell-on-Jumia " >
+        <div class="row container d-flex justify-content-between m-auto  ">
+            <div class="col-lg-2 col-md-12">
+                <a href="#" class="text-decoration-none  link-dark ms-4 ">
+                    <span style="color:#f68b1e; font-weight:bold" ><i class="fad fa-star"></i> Sell on Jumia </span>
+                </a>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <ul class="d-flex justify-content-center list-unstyled ">
+                    <li class="me-3">
+                        <a href="#" class="text-decoration-none">
+                            <span style="color:#f68b1e; font-weight:bold" ><i class="fad fa-star"></i> FOOD</span>
+                        </a>
+                    </li>
+                    <li class="me-3 ">
+                        <a class="text-secondary text-decoration-none" href="#">
+                            <i class="fas fa-crown"></i> PRIMO
+                        </a>
+                    </li>
+                    <li class="me-3 ">
+                        <a class="text-secondary text-decoration-none" href="#">
+                            <i class="fad fa-star"></i> REWARDS
+                        </a>
+                    </li>
+                    <li    >
+                        <a class="text-secondary text-decoration-none" href="#">
+                            <i class="fad fa-shield-alt"></i> PAY
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-12 me-0">
+                <ul class="d-flex justify-content-center list-unstyled ">
+                    <a  class="text-decoration-none  link-dark me-4 socialIcon" href="#">
+                        <li class="d-flex"><img class="rounded-circle" width="25px" height="25px"
+                                src="imgs/uk.svg">English</li>
+                    </a>|
+                    <a class="text-decoration-none  link-dark ms-4 socialIcon " href="#">
+                        <li class="d-flex"><img class="rounded-circle" width="25px" height="25px" src="imgs/eg.svg" >عربي
+                        </li>
+                    </a>
+                </ul>
+            </div>
+    
+        </div>
+    </nav>
+    <header class="pb-1 pt-2 mb-4 border-bottom  header-underNav  " id="navBarFixed">
+        <div class="row container d-flex justify-content-around m-auto align-items-center  ">
+            <div class="col-lg-2 col-md-12">
+                <a class="text-decoration-none  link-dark me-4 socialIcon" href="#">
+                    <h2 class="fw-bold" style=" font-family: 'Orbitron', sans-serif">JUMIA<i class="fas fa-cart-plus"></i></h2>
+                </a>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <form class="d-flex">
+                    <input type="search" class="form-control" placeholder="Search Products, brands and Categories"
+                        aria-label="Search">
+                    <input class="ms-2 bg-warning rounded border-warning text-light fw-bold" type="button" value="Search">
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <ul class="d-flex justify-content-center list-unstyled mt-4">
+                    <li class="me-2 col">
+                        <div class="dropdown">
+                            <a href="#"  class="text-decoration-none  link-dark me-4 dropdown-toggle fw-bold socialIcon"  role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-user"></i> Acount
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"><button
+                                            class="text-light btn px-5 py-1 btn-warning">SIGN IN</button></a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-user"></i>My Acount</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-bags-shopping"></i> Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-heart"></i> Saved Items</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="me-2 col">
+                        <div class="dropdown">
+                            <a href="#"  class="text-decoration-none  link-dark me-4 dropdown-toggle fw-bold socialIcon" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-question-circle"></i> Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                                <li><a class="dropdown-item" href="#">Place & Track Order</a></li>
+                                <li><a class="dropdown-item" href="#">Oreder Collection</a></li>
+                                <li><a class="dropdown-item" href="#">Return & Refunds</a></li>
+                                <li><a class="dropdown-item" href="#">Payment & Jumia Account</a></li>
+                                <li><a class="dropdown-item" href="#"><button
+                                            class="text-light btn px-5 py-1 btn-warning"><i
+                                                class="far fa-comment-alt-dots"></i> LIVE HELP</button></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <a class="d-flex text-decoration-none  link-dark  socialIcon" href="#">
+                            <i class="fal fa-shopping-cart mt-1 "></i>
+                            <span  class="text-decoration-none ms-2  link-dark  fw-bolder socialIcon d-inline-block" > Cart</span>
+                        </a>
+     
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+        </div>
+    </header>
+
+    <!-- start of single product -->
+    <div class="container mt-3">
+        <div class="main row container " >
+            <!-- first left section -->
+            
+        <div class="col-9 row single-firstcol ms-0" style="background-color:#F5F5F5; position: relative; ">
+
+            <div class="row"  style="background-color: white; padding: 8px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                            
+            <div class="col-5">
+                <img src="1.jpg" width="100%" alt="">
+                <hr>
+                <p class="ps-2 fw-bold">SHARE THIS PRODUCT </p>
+                <div>
+                    <a class=" text-decoration-none me-3 fs-4 link-dark" href="https://www.jumia.com.eg/help/"><i
+                        class="fab fa-facebook-f  socialIcon "></i></a>
+                <a class=" text-decoration-none me-3 fs-4 link-dark" href="https://www.jumia.com.eg/help/"><i
+                        class="fab fa-twitter socialIcon  "></i></a>
+                </div>
+
+
+            </div>
+            <div class="col-7">
+                
+                    <p class="fs-5 d-inline-block mb-2">Ethyl Alcohol 70% - 1 Liter</p>
+                    <!-- <p class="d-inline-block   " ><i class="far fa-heart  "></i></p> -->
+                    <div class="single-start m-0">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p class="d-inline-block"><a href="3" style="text-decoration: none;"> (418 Ratings)</a></p>
+                    <hr class="m-0">    
+                    </div>
+                    <div class="fs-4 fw-bold">
+                         EGP 35 
+                         <span class="fs-6 fw-lighter text-decoration-line-through d-block">EGP 100 <span class="badge " style="background-color: #feefde; color: #f68b1e;">-65%</span></span>
+                      <span class="fw-normal" style="font-size: 12px;">+ shipping from EGP 11 to 6th of October</span> 
+                      <div><a href="" class="me-2"> <i class="fas fa-minus-square" style="color: #f68b1e; font-size: 35px;fill:#f68b1e;"></i></a>
+                        <span ><div style="font-size: 15px;display: inline-block;">1</div> </span>  
+                       <a href="" class="ms-2 d-inline-block"> <i class="fas fa-plus-square" style="color: #f68b1e; font-size: 35px;fill:#f68b1e;"></i></a>
+                    <span style="font-size: 13px; font-weight: 500;">(1 item(s) added)</span></div> 
+                       
+                    </div>
+                    <hr>
+                    <div class="fw-bolder fs-5">
+                        Promotions
+                    </div>
+                    <div >
+                        <a href="" class="single-anchor" style="font-size: 13px;text-decoration: none; color: #264996;"><i class="fas fa-crown me-2" style="color: #f68b1e;"></i> <span>Get free Delivery on your next order  with jumia primo</span> </a> <br> <br>    
+                        <a href="" class="single-anchor d-flex"  style="font-size: 13px;text-decoration: none; color: #264996;"><i class="fas fa-shield-alt me-3" style="color: blue;"></i><p >Enjoy 75% cashback when paying your bills online- Code: WELCOME75 - for new customers only</p> </a> <br>
+                        <a href="" class="single-anchor d-flex"  style="font-size: 13px;text-decoration: none; color: #264996; display: block;"><i class="fas fa-certificate me-3" style="color: #f68b1e;"></i><p>span>Enjoy 0% interest on installment up to 24 months with Banque Misr credit cards</p>  </a>
+                    </div>
+                    
+            </div>
+            
+            <a href="" id="product-details" style="font-size: small; position: absolute;bottom: 2%;">Report incorrect product infomrmation</a>
+            </div>
+
+
+        </div>
+        
+        <!-- end of left section -->
+        <!-- start of right card -->
+        
+            <div class=" col-3 single-secondcol ms-0" >
+                <!-- 1st row in 3 colms -->
+                <div style="background-color: white; padding: 8px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                    <div style="font-size: 14px; font-weight: 500; margin: 0;padding-top: 5px;">
+                        DELIVERY & RETURNS
+                    </div>
+                    <hr>
+                   <div style="margin: 0;" >Jumia <span style="color: #f68b1e;">Express</span> </div>
+                   <p style="font-size: 12px; margin: 0;">Free Shipping on Jumia Express for orders above 350 EGP in Cairo & Giza. <a href="">Details</a> </p>
+                   <hr >
+                   <h5 style="margin: 1;">Choose Your Location</h5>
+                   <select class="col-12" name="cars" style="height: 2rem; margin-bottom: 3px; border-radius: 4px; border: rgb(218, 212, 212) 1px solid;" id="cars">
+                    <option >Giza</option>
+                    <option >Alexandria</option>
+                    <option >Qena</option>
+                    <option>Menofia</option>
+                  </select>
+                  <br>
+                  
+                  <select  class="col-12" name="cars" style="height: 2rem; margin-top: 3px; margin-bottom: 10px; border-radius: 4px; border: rgb(218, 212, 212) 1px solid;" id="cars">
+                    <option >option 1</option>
+                    <option >2</option>
+                    <option >3</option>
+                    <option>4</option>
+                  </select>
+    
+                  <div class="row">
+                      <div class="col-2">
+                          <div style="border: 1px solid rgb(212, 207, 207); border-radius: 3px; width: 2.5rem; height: 2.5rem;">
+                             <i class="far fa-truck" style="font-size: 20px; padding:8px"></i>
+                          </div>
+    
+                      </div>
+                      <div class="col-10">
+                          <p style="font-size: 13px; font-weight: 500; margin-bottom: 0;">Door Delivery</p>
+                          <div style="font-size: 12px;">
+                            Shipping <b>EGP 22</b> 
+                            Delivery by 18 October when you order within next 12hrs 2mins
+                          </div>
+    
+                      </div>
+    
+    
+                  </div>
+                  <hr width="100%">
+                  <div class="row">
+                    <div class="col-2">
+                        <div style="border: 1px solid rgb(212, 207, 207); border-radius: 3px; width: 2.5rem; height: 2.5rem;">
+                            <i class="fas fa-undo-alt" style="font-size: 20px; padding:8px"></i>
+                        </div>
+    
+                    </div>
+                    <div class="col-10">
+                        <p style="font-size: 13px; font-weight: 500; margin-bottom: 0;">Return Policy</p>
+                        <div style="font-size: 12px;">
+                          Shipping <b>EGP 22</b> 
+                          Delivery by 18 October when you order within next 12hrs 2mins
+                        </div>
+    
+                    </div>
+    
+                
+    
+            </div>
+            <!-- end of 1st row 3 colms -->
+
+    
+                </div>
+                <!-- start of 2nd row 3  colms -->
+                <div class="mt-2 " style="background-color: white; padding: 5px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                    <a href="" class="text-dark "  style="text-decoration: none;"><h6>SELLER INFORMATION</h6> </a>
+                    <hr class="m-0">
+                    <div style="margin-top: 0;">OnLine PHaRMaCIES </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <span style="font-size: 13px;"> <b>94%</b>  Seller Score <br></span>
+                          
+                            <span style="font-size: 13px;"><b>1473 </b> Followers</span>
+                           
+                        </div>
+                        <div class="col-6 text-end">
+                            <button  style="background-color: #f68b1e;  color: white;border: 0; border-radius: 4px; padding: 3px 15px 3px 15px; margin-right: 10px; ">Follow</button>
+
+                        </div>
+
+                    </div>
+                    <hr class="mb-2">
+                    <div>
+                        <p style="font-size: 13px; font-weight: 500; margin-bottom: 0;">  Seller performance</p> 
+                    </div>
+                    <i class="bi bi-star" style="color: green;"></i>   <span style="font-size: 12px;">Order Fulfillment Rate: <b>Excellent</b> </span><br>
+                    <i class="bi bi-star" style="color: green;"></i> <span style="font-size: 12px;">Quality Score: <b>Excellent</b> </span><br>
+                    <i class="bi bi-star" style="color: green;"></i><span style="font-size: 12px;">Customer Rating: <b>Good</b> </span><br>
+
+                </div>
+                <!-- end of 2nd row 3 colms -->
+                <!-- start of 3rd row 3 colms -->
+                <div  class="mt-2 " style="background-color: white; padding: 5px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                    <p style="font-size: 13px; font-weight: 500; margin-bottom: 0;"> Have one to sell?</p>
+                    <p style="font-size: 13px;  margin-bottom: 0;">Click here to list your product</p> 
+
+
+                </div>
+                <!-- end of 3rd row 3 colms -->
+
+
+                
+
+
+                
+               
+
+        </div>
+        <!-- end of the first section -->
+        
+        </div>
+        <!-- start of second section -->
+        <div class="main2 row container mt-3 " >
+            <!-- start of product details section -->
+
+                        
+        <div class="col-9 row single-firstcol ms-0" style="background-color:#F5F5F5; position: relative; ">
+            <!-- first row in second section -->
+            <div class="row"  style="background-color: white; padding: 8px;padding-left: 20px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                <h5 >
+                    Product Details
+                </h5>
+                <hr>
+                <ul style="font-size: 14px;">
+                    <li>
+                        ethyl alcohol 
+
+                    </li>
+                    <li>
+                        1 Liter
+                    </li>
+                    <li>
+                        kills 99.9% of all virus and germs
+                    </li>
+                    <li>
+                        contains 70% Ethyl alcohol
+
+                    </li>
+                    <li>
+                        external use only
+
+                    </li>
+                    <li>
+                        organic product 
+
+                    </li>
+                    <li id="specifications">
+                        There may be a difference in the appearance of the outer package or the data from the outside only
+
+
+                    </li>
+                    
+                   
+                    
+                    
+                   
+                </ul>
+                            
+            
+            </div>
+            <div class="row"  style="background-color: white; margin-top: 15px; padding: 8px;padding-left: 20px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+                <h5>
+                    Specifications
+                </h5>
+                <hr>
+                <div class="col-6" style="border :1px solid #ebe9e9 ;  border-radius: 4px; padding: 0px; padding-block: 10px;">
+                    <h6 class="ps-3">Key Features</h6>
+                    <hr>
+                    <ul style="font-size: 14px;">
+                        <li>
+                            ethyl alcohol 
+    
+                        </li>
+                        <li>
+                            1 Liter
+                        </li>
+                        <li>
+                            kills 99.9% of all virus and germs
+                        </li>
+                        <li>
+                            contains 70% Ethyl alcohol
+    
+                        </li>
+                        <li>
+                            external use only
+    
+                        </li>
+                        <li>
+                            organic product 
+    
+                        </li>
+                        <li >
+                            There may be a difference in the appearance of the outer package or the data from the outside only
+    
+    
+                        </li>
+                    </ul>    
+
+
+                </div>
+                <div class="col-6" style="border :1px solid #ebe9e9 ;  border-radius: 4px; padding-left: 5px; padding-block: 10px;">
+                    <h6 class="ps-3">
+                        Specifications
+                    </h6>
+                    <hr>
+
+                   <p ><b>SKU</b>:GE810ST01ZZO2NAFAMZ</p> 
+                   <p><b>Moder</b>:1 Liter</p>
+                   <p><b>Production Country</b>:Egypt</p>
+                   <p><b>Size (L x W x H cm)</b>:15*5</p>
+                   <p><b>color</b>:Transparent</p>
+                   <p><b>Main Material</b>:حول إثيلي 70%     ethyl alcohol 70%</p>
+
+
+                   
+
+                </div>
+                
+            </div>
+           
+
+
+        </div>
+        
+            <div class="col-3 single-secondcol ms-0">
+                <div id="left">
+                    <div  style="background-color: white; margin-top: 15px; padding: 8px;padding-left: 20px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px;">
+
+                        <a href="#product-details" class="text-dark" style="text-decoration: none;"> <span><i class="far fa-file-alt" style="font-size: 20px; margin-right: 10px;"></i> Product Details</span></a>
+                        <hr>
+                        <a href="#specifications" class="text-dark" style="text-decoration: none;"><span><i  class="fas fa-list-ul" style="font-size: 20px; margin-right: 10px;"></i> Specifications</span></a>
+                        <hr>
+                        <a href="" class="text-dark" style="text-decoration: none;" ><span><i class="far fa-comment-alt-exclamation" style="font-size: 20px; margin-right: 10px;"></i> Customer Feedback</span></a>
+    
+    
+    
+                    </div>
+                    <div class="row single-firstcol " style="background-color: white; margin-top: 15px;margin-left: 1px; padding: 8px;width: 99.95%; padding-left: 20px; box-shadow: 0 2px 5px 0 #ededed; border-radius: 4px; ">
+                        <div class="col-5">
+                            <img src="1.jpg" width="100%" alt="">
+                           
+                            
+                           
+            
+            
+                        </div>
+                        <div class="col-7">
+                            
+                                <p class=" d-inline-block mb-2" style="font-size: 11px;">Ethyl Alcohol 70% - 1 Li..</p>
+                                <!-- <p class="d-inline-block   " ><i class="far fa-heart  "></i></p> -->
+                                <div class="single-start m-0">
+                                  
+                                    
+                                   
+                                </div>
+                                <div class="fs-6 fw-bold">
+                                     EGP 35 
+                                     <span class=" fw-lighter text-decoration-line-through d-block" style="font-size: 12px;">EGP 100 <span class="badge " style="background-color: #feefde; color: #f68b1e;">-65%</span></span>
+
+                                  
+                                   
+                                </div>
+    
+    
+                    </div>
+                    <button style="margin-top: 5px;border: 0; border-radius: 4px;padding-block: 7px; background-color: #f68b1e; color: white; text-align: start;"><i class="far fa-shopping-cart "></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Add to cart</button>
+    
+
+                </div>
+
+               
+            </div>
+            </div>
+
+        </div>
+        <!-- end of the second section -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start all footers -->
+
+<footer class="footer text-white bg-dark px-3 mt-5 ">
+    <div class="container">
+
+        <!-- first row  -->
+        <div class="row align-items-center align-items-stretch bb-5  g-4 pb-4">
+
+            <!-- one -->
+            <div class="col-lg-2 col-md-12 py-4 py-md-4 aside-stretch ">
+                <div>
+                    <img src="imgs/lg-jumia.png" alt="" class="w-50">
+                </div>
+            </div>
+
+            <!-- two -->
+            <div class="col-lg-6 col-md-12 py-4 py-md-4 aside-stretch ">
+                <div class="f-t -pbs">New to Jumia?</div>
+                <p class="">Subscribe to our newsletter to get updates on our latest offers!</p>
+
+                <div class="row g-3">
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Enter email address" aria-label="City">
+                    </div>
+
+                    <div class="col-sm">
+                        <button type="button" name="gender" value="male"
+                            class=" form-control btn btn-outline-light"><span>Male</span></button>
+                    </div>
+
+                    <div class="col-sm">
+                        <button type="button" name="gender" value="female"
+                            class=" form-control btn btn-outline-light"><span>Female</span></button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- three -->
+            <div class="col-lg-3 col-md-12 py-4 py-md-4  ms-5 ">
+
+                <div class="row g-1 mb-2 ">
+                    <div class="col-lg-3"><img src="imgs/icon.png" alt="" class="w-75 rounded"> </div>
+
+                    <div class=" col-lg-9">
+                        <div class=" ">DOWNLOAD JUMIA FREE APP</div>
+                        <p class="  ">Get access to exclusive offers!</p>
+                    </div>
+                </div>
+
+
+                <div class="row g-1  row-cols-2">
+                    <div class="">
+                        <a href="#" class="btn btn-outline-light  px-4  " tabindex="-1" role="button"
+                            aria-disabled="true"> <i class="fab fa-apple pr-1 me-1" aria-hidden="true"></i>Apple
+                            Store</a>
+
+                    </div>
+
+                    <div class=" ">
+                        <a href="#" class="btn btn-outline-light  px-4 " tabindex="-1" role="button"
+                            aria-disabled="true"><i class="fab fa-google-play pr-1  " aria-hidden="true"></i>Google
+                            Play</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end first row -->
+    </div>
+</footer>
+
+
+
+<footer class="footer2 text-white  pb-5 px-3 " style="background-color: #323232;">
+    <div class="container">
+
+
+        <!-- row -->
+        <div class="row py-4">
+            <!-- one -->
+            <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+
+                <span class="footer-heading ">LET US HELP YOU</span>
+
+                <ul class="list-unstyled pt-3">
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/help/">Help Center</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/contact/">Contact us</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/how-to-shop/">How to buy on Jumia?</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/how-to-pay/">How to pay on Jumia?</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/delivery-timelines/">Delivery timelines</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/sp-returns-refunds/">Return Policy </a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/jumia-corporate/">Corporate Services</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://docs.google.com/forms/d/1poBfqrj0bXCtkvJIm_24mLCTdvKJNebDB7-ATHZwRW4/edit">Report
+                            a
+                            Product</a></li>
+                </ul>
+            </div>
+
+            <!-- two -->
+            <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                <span class="footer-heading ">ABOUT JUMIA EGYPT</span>
+                <ul class="list-unstyled pt-3">
+                    <li><a class="text-decoration-none text-muted link-light" href="/about_us/?internal=footer">About
+                            us</a></li>
+                    <li><a class="text-decoration-none text-muted link-light" href="/careers/?internal=footer">Jumia
+                            Careers</a></li>
+                    <li><a class="text-decoration-none text-muted link-light"
+                            href="/terms-of-use/?internal=footer">Terms and Conditions</a></li>
+                    <li><a class="text-decoration-none text-muted link-light" href="/privacy/?internal=footer">Privacy
+                            Policy</a></li>
+                    <li><a class="text-decoration-none text-muted link-light"
+                            href="/jumia-express/?internal=footer">Jumia Express</a></li>
+                    <li><a class="text-decoration-none text-muted link-light" href="/jumia-mall/?internal=footer">Jumia
+                            Mall</a></li>
+                    <li><a class="text-decoration-none text-muted link-light"
+                            href="/sp-jumia-services/?internal=footer">Jumia Logistics Services</a></li>
+                    <li><a class="text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/mlp-black-friday/">Jumia Black Friday</a></li>
+
+                </ul>
+            </div>
+            <!-- three -->
+            <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                <span class="footer-heading ">MAKE MONEY WITH JUMIA</span>
+                <ul class="list-unstyled pt-3">
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://vendorhub.jumia.com.eg/terms-and-agreements/">Sell on Jumia</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/logistics-service-partner/?internal=footer">Become a
+                            Logistics Service Partner</a></li>
+                    <li><a class=" text-decoration-none text-muted link-light"
+                            href="https://www.jumia.com.eg/jforce-consultant/">Become a Sales Consultant (J-Force
+                            )</a></li>
+
+                </ul>
+            </div>
+
+            <!-- four -->
+            <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
+                <span class="footer-heading ">JUMIA INTERNATIONAL</span>
+                <div class=" row row-cols-2">
+                    <ul class="list-unstyled pt-3">
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.dz/">Algeria</a></li>
+                        <li><a class="text-decoration-none text-muted link-light" href="https://www.jumia.ci/">Ivory
+                                Coast </a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.gh/">Ghana</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.co.ke/">Kenya</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.ma/">Morocco</a></li>
+                    </ul>
+                    <ul class="list-unstyled pt-3">
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.ng/">Nigeria</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.sn/">Senegal</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.tn/">Tunisia</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.ug/">Uganda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- second row -->
+        <div class="row py-4 border-bottom border-secondary  ">
+            <!-- one -->
+            <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+
+                <span class="footer-heading ">JOIN US ON</span>
+
+                <div class="list-unstyled pt-2 pb-4">
+                    <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                            class="fab fa-facebook-f  socialIcon "></i></a>
+                    <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                            class="fab fa-twitter socialIcon  "></i></a>
+                    <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                            class="fab fa-instagram socialIcon"></i></a>
+                    <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                            class="fab fa-youtube socialIcon"></i></a>
+
+                </div>
+
+            </div>
+
+            <!-- two -->
+            <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                <span class="footer-heading ">PAYMENT METHODS</span>
+
+                <div class="list-unstyled pt-2  pb-4">
+                    <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                        title="Payment on delivery"><i class="fas fa-hand-holding socialIcon "></i></a>
+                    <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                        title="Mastercard"><i class="fab fa-cc-mastercard  socialIcon "></i></i></a>
+                    <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                        title="Visa"><i class="fab fa-cc-visa  socialIcon "></i></a>
+                    <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                        title="Fawry"><i class="fas fa-money-bill-wave socialIcon"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- end row tow -->
+
+
+
+        <!-- row three -->
+        <div class="row justify-content-end pt-2  ">
+            <div class="col-lg-8 col-md-7 ms-5">
+                <div class="section-title text-center  ">
+                    <span class="me-2  ">
+                        <i class="far fa-star socialIcon"></i>
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                            title="Fawry">PRIMO</a>
+                    </span>
+                    <span class="me-2">
+                        <i class="fas fa-star-half-alt socialIcon"></i>
+
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                            title="Fawry">REWARDS</a>
+                    </span>
+                    <span class="me-2">
+                        <i class="fas fa-shield-alt socialIcon"></i>
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                            title="Fawry">PAY</a>
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-4  ">
+                <div class="section-title text-center  ">
+                    <span class="me-2">
+                        <img src="imgs/uk.svg" alt="" class="img-circle" style="width:20px">
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                            title="Fawry">English</a>
+                    </span>
+                    <span class="me-2">
+                        <!-- <i class="bi bi-shield-fill-check"></i> -->
+                        <img src="imgs/eg.svg" alt="" class="img-circle" style="width:18px">
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                            title="Fawry">Arabic</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+<!-- end all footers -->
+    
+
+     <!--  Bundle bootstrap js  -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+
+     <!-- custome js -->
+     <script src="js/index.js"></script>

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <!-- cdn Icon  .fontawesome.-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- cdn bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custome css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- advertisment -->
+    <div class="navImg" id="ads ">
+        <div class="container">
+            <div class="row  ">
+                <img src="imgs/ads.jpeg">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- start nav -->
+
+    <nav class="p-4 bg-light border-bottom " id="Sell-on-Jumia ">
+
+        <!-- start row -->
+        <div class="row container d-flex justify-content-between m-auto  ">
+            <!-- col-2 -->
+            <div class="col-lg-2 col-md-12">
+                <a href="#" class="text-decoration-none  link-dark ms-4 ">
+                    <span style="color:#f68b1e; font-weight:bold"><i class="fad fa-star"></i> Sell on Jumia </span>
+                </a>
+            </div>
+            <!-- col-7 -->
+            <div class="col-lg-7 col-md-12">
+                <ul class="d-flex justify-content-center list-unstyled ">
+                    <li class="me-3">
+                        <a href="#" class="text-decoration-none  link-dark ms-4 ">
+                            <span style="color:#f68b1e; font-weight:bold"><i class="fad fa-star"></i> FOOD</span>
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a class="text-secondary text-decoration-none  link-dark ms-4 " href="#">
+                            <i class="fas fa-crown"></i> PRIMO
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a class="text-secondary text-decoration-none  link-dark ms-4 " href="#">
+                            <i class="fad fa-star"></i> REWARDS
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-secondary text-decoration-none  link-dark ms-4 " href="#">
+                            <i class="fad fa-shield-alt"></i> PAY
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- col-3 -->
+            <div class="col-lg-3 col-md-12 me-0">
+                <ul class="d-flex justify-content-center list-unstyled ">
+                    <a class="text-decoration-none  link-dark me-4 socialIcon" href="#">
+                        <li class="d-flex"><img class="rounded-circle" width="25px" height="25px"
+                                src="imgs/uk.svg">English</li>
+                    </a>|
+                    <a class="text-decoration-none  link-dark ms-4 socialIcon " href="#">
+                        <li class="d-flex"><img class="rounded-circle" width="25px" height="25px" src="imgs/eg.svg">عربي
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <header class="pb-1 pt-2 mb-4 border-bottom  header-underNav  " id="navBarFixed">
+        <div class="row container d-flex justify-content-around m-auto align-items-center  ">
+            <div class="col-lg-2 col-md-12">
+                <a class="text-decoration-none  link-dark me-4 socialIcon" href="#">
+                    <h2 class="fw-bold mt-3" style=" font-family: 'Orbitron', sans-serif">JUMIA<i
+                            class="fas fa-cart-plus"></i></h2>
+                </a>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <form class="d-flex">
+                    <input type="search" class="form-control" placeholder="Search Products, brands and Categories"
+                        aria-label="Search">
+                    <input class="ms-2 bg-warning rounded border-warning text-light fw-bold" type="button"
+                        value="Search">
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <ul class="d-flex justify-content-center list-unstyled mt-1">
+                    <li class="me-2">
+                        <div class="dropdown">
+                            <a href="#" class="text-decoration-none  link-dark me-4 dropdown-toggle fw-bold socialIcon"
+                                role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-user"></i> Acount
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"><button
+                                            class="text-light btn px-5 py-1 btn-warning">SIGN IN</button></a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-user"></i>My Acount</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-bags-shopping"></i> Orders</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-heart"></i> Saved Items</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="me-2">
+                        <div class="dropdown">
+                            <a href="#" class="text-decoration-none  link-dark me-4 dropdown-toggle fw-bold socialIcon"
+                                role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-question-circle"></i> Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                                <li><a class="dropdown-item" href="#">Place & Track Order</a></li>
+                                <li><a class="dropdown-item" href="#">Oreder Collection</a></li>
+                                <li><a class="dropdown-item" href="#">Return & Refunds</a></li>
+                                <li><a class="dropdown-item" href="#">Payment & Jumia Account</a></li>
+                                <li><a class="dropdown-item" href="#"><button
+                                            class="text-light btn px-5 py-1 btn-warning"><i
+                                                class="far fa-comment-alt-dots"></i> LIVE HELP</button></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex text-decoration-none  link-dark  fw-bolder socialIcon">
+                            <i class="fal fa-shopping-cart mt-1 me-2"></i>
+                            <span>Cart</span>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </header>
+
+    <!-- end nav -->
+    <!-- ur code here -->
+    <!--
+        //start with class in any section class="main-sectionFirst"
+        //write comments in every section start and end 
+        // try always to use bootstrap use custome css when it's not possible to use bootstrap
+        // start the name of any class with the of the page then the name of the section the then of the elemnt   Ex//  myAcount-main-img     or myAcount-main-infosection 
+
+        //
+
+      -->
+
+<section class="loginPage py-5">
+ <div class="container-lg ">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8 ">
+                <div class="section-title">
+                    <h4 class="fw-bold mb-5" style="color:#f68b1e">Create Account </h4>
+                </div>
+            </div>
+        </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 ">
+
+                <div class="contact form">
+                    <form action="">
+                        <div class="row py-4">
+                            <div class="col mb-4  border-muted  border-bottom  me-4">
+                                <input class="form-control form-control-lg fs-6 border-0" type="text" name=""
+                                    placeholder="First Name">
+                            </div>
+                            <div class="col  mb-4 border-muted  border-bottom  me-4">
+                                <input class="form-control form-control-lg fs-6 border-0" type="text" name=""
+                                    placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="row py-4">
+                            <div class="col mb-4 border-muted  border-bottom  me-4">
+                                <input class="form-control form-control-lg fs-6 border-0" type="email" name=""
+                                    placeholder="E-mail">
+                            </div>
+                            <div class="col  mb-4 border-muted  border-bottom  me-4">
+                                <input class="form-control form-control-lg fs-6 border-0" type="password" name=""
+                                    placeholder="Password">
+                            </div>
+                        </div>
+                
+                        <div class="row py-4">
+                            <span class="col-lg-1  mb-4 border-muted  border-bottom  me-4">
+                            <span class="text-muted">+20</span>
+                            </span>
+                            <div class="col-lg-10  mb-4 border-muted  border-bottom  me-4">
+                               <input class="form-control form-control-lg fs-6 border-0" type="text" name=""
+                                    placeholder="Phone Number (optional)">
+                            </div>
+                        </div>
+                
+                        <!-- <div class="row py-4">
+                            <div class="col-lg-12  mb-4 border-muted  border-bottom  me-4">
+                                <button type="submit" class="btn btn-danger px-3">Send Message </button>
+                            </div>
+                        </div> -->
+
+
+                            <div class="row ">
+
+                                <div class="">
+                                    <input type="checkbox" value="1" id="terms" name="terms">
+                                    <label class="ms-2"
+                                        for="fi-terms">I accept the</label><a class=" " target="_blank" rel="noopener"
+                                        href="/conditions/" style="color:#f68b1e">Terms &amp; Conditions</a>
+                                </div>
+                            </div>
+                            <div class="row py-4">
+                                <div class="">
+                                    <input  type="checkbox" value="1" id="newsletter" name="newsletter" checked="">
+                                    <label class="ms-2" for=" ">I want to receive Jumia Newsletters with the best deals and offers</label>
+                                </div>
+                            </div>
+
+
+
+                                <div class="col10 -hr -mtl" data-mid-txt="OR"><a class="btn _fb _i -mtl"
+                                        href="https://www.facebook.com/v3.2/dialog/oauth?state=55dda13d287d4e4cf0199b780cc7d1fa&amp;redirect_uri=https%3A%2F%2Fwww.jumia.com.eg%2Fcustomer%2Ffacebook%2Flogin%2F&amp;scope=public_profile%2Cemail&amp;response_type=code&amp;approval_prompt=auto&amp;client_id=413652859092940"><svg
+                                            viewBox="0 0 24 24" class="ic" width="24" height="24">
+                                            <use xlink:href="https://www.jumia.com.eg/assets_he/images/i-icons.e70b7734.svg#facebook"></use>
+                                        </svg><span></span></a></div>
+                                <div class="col10 -tac -pvl -mvl">
+
+
+
+                        <div class="row py-4 col-rows-1">
+                            <div class=" "><button class="btn btn-primary border border-none p-2 w-100 rounded  fs-5 fw-bold" 
+                                    style="background-color:#f68b1e">CREATE ACCOUNT</button></div>
+                        </div>
+
+                        <div class="row py-3 col-rows-1">
+                                    <div class="col-12"><button class="btn btn-primary border border-none p-2 w-100 rounded  fs-5  fw-bold m"  style="background-color:#344f88" ><i class="fab fa-facebook-square "></i>Register WITH FACEBOOK</button></div>
+                        </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8 ">
+                                        <div class="section-title text-center">
+                                            <p class=""> Already have an account?</p>
+                                            <a class="text-decoration-none link-light  fw-bold " href="/customer/account/login/"  style="color:#f68b1e">LOGIN</a>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                         
+
+                
+                    </form>
+                </div>
+
+
+
+
+        </div>
+    </div>
+
+ </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--       
+<form method="post" id="authForm" class="row -j-ctr -pvl">
+    <h1 class="col10 -flupp -or5 -b -fs20 -pvm">Create Account</h1>
+    <div class="col10 -df">
+        <div class="fi-w -fw -mrl"><input required="" class="fi" type="text" value="" id="fi-firstName"
+                name="firstName"><label class="lbl" for="fi-firstName">First Name</label></div>
+        <div class="fi-w -fw"><input required="" class="fi" type="text" value="" id="fi-lastName" name="lastName"><label
+                class="lbl" for="fi-lastName">Last Name</label></div>
+    </div>
+    <div class="col10 -df">
+        <div class="fi-w -fw -mrl"><input required="" class="fi" type="email" value="" id="fi-email" name="email"><label
+                class="lbl" for="fi-email">E-mail</label></div>
+        <div class="fi-w fi-br -fw"><input required="" autocomplete="new-password" class="fi" type="password" value=""
+                id="fi-password" name="password"><label class="lbl" for="fi-password">Password</label><button
+                type="button" aria-label="Show/Hide Password"><svg viewBox="0 0 24 24" class="ic" width="22"
+                    height="22">
+                    <use xlink:href="https://www.jumia.com.eg/assets_he/images/i-icons.e70b7734.svg#visibility-off">
+                    </use>
+                </svg></button></div>
+    </div>
+    <div class="col10 row">
+        <div class="col8 -df">
+            <div class="fi-w">
+                <div class="fi fks -ltr -tal">+20</div><label class="lbl">Prefix</label>
+            </div><input name="phonePrefix" value="+20" id="fi-phonePrefix" type="hidden">
+            <div class="fi-w -mlm -fw -mrxs"><input pattern="[0-9]*" class="fi" type="tel" value="" id="fi-phone"
+                    name="phone"><label class="lbl" for="fi-phone">Phone Number (optional)</label></div>
+        </div>
+    </div>
+    <div class="col10">
+        <div class="fi-w _cb _ha"><input required="" class="cb" type="checkbox" value="1" id="fi-terms"
+                name="terms"><label class="lbl" for="fi-terms">I accept the</label><a class="_link -or5 -fs14 -di"
+                target="_blank" rel="noopener" href="/conditions/">Terms &amp; Conditions</a>
+            <p class="-fs14"> </p>
+        </div>
+    </div>
+    <div class="col10">
+        <div class="fi-w _cb _ha"><input class="cb" type="checkbox" value="1" id="fi-newsletter" name="newsletter"
+                checked=""><label class="lbl" for="fi-newsletter">I want to receive Jumia Newsletters with the best
+                deals and offers</label>
+            <p class="-fs14"> </p>
+        </div>
+    </div>
+    <div class="fi-rc">
+        <div label="register_g-recaptcha-response-label" required="" class="g-recaptcha" data-callback="recaptchaCb"
+            data-sitekey="6Ld10pMUAAAAALR9veZMl9f0LQBvCoddttBDq0L0" id="fi-recaptcha" data-size="invisible">
+            <div class="grecaptcha-badge" data-style="none"
+                style="width: 256px; height: 60px; position: fixed; visibility: hidden;">
+                <div class="grecaptcha-logo"><iframe title="reCAPTCHA"
+                        src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld10pMUAAAAALR9veZMl9f0LQBvCoddttBDq0L0&amp;co=aHR0cHM6Ly93d3cuanVtaWEuY29tLmVnOjQ0Mw..&amp;hl=en&amp;v=qljbK_DTcvY1PzbR7IG69z1r&amp;size=invisible&amp;badge=none&amp;cb=tayjk7w35uvj"
+                        width="256" height="60" role="presentation" name="a-ywesszatq1yd" frameborder="0" scrolling="no"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                </div>
+                <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                    class="g-recaptcha-response"
+                    style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+            </div><iframe style="display: none;"></iframe>
+        </div>
+    </div>
+    <div class="col10 -df -ptl"><button class="btn _prim -fw">CREATE ACCOUNT</button></div>
+    <div class="col10 -hr -mtl" data-mid-txt="OR"><a class="btn _fb _i -mtl"
+            href="https://www.facebook.com/v3.2/dialog/oauth?state=55dda13d287d4e4cf0199b780cc7d1fa&amp;redirect_uri=https%3A%2F%2Fwww.jumia.com.eg%2Fcustomer%2Ffacebook%2Flogin%2F&amp;scope=public_profile%2Cemail&amp;response_type=code&amp;approval_prompt=auto&amp;client_id=413652859092940"><svg
+                viewBox="0 0 24 24" class="ic" width="24" height="24">
+                <use xlink:href="https://www.jumia.com.eg/assets_he/images/i-icons.e70b7734.svg#facebook"></use>
+            </svg><span>Register WITH FACEBOOK</span></a></div>
+    <div class="col10 -tac -pvl -mvl">
+        <p>Already have an account?</p><a class="btn _def -mvs" href="/customer/account/login/">LOGIN</a>
+    </div><input name="csrfToken" value="55dda13d287d4e4cf0199b780cc7d1fa" type="hidden">
+</form> -->
+
+
+
+
+
+    <!-- Sample product row  End-->
+
+
+    <!-- start all footers -->
+
+    <footer class="footer text-white bg-dark px-3 ">
+        <div class="container">
+
+            <!-- first row  -->
+            <div class="row align-items-center align-items-stretch bb-5  g-4 pb-4">
+
+                <!-- one -->
+                <div class="col-lg-2 col-md-12 py-4 py-md-4 aside-stretch ">
+                    <div>
+                        <img src="imgs/lg-jumia.png" alt="" class="w-50">
+                    </div>
+                </div>
+
+                <!-- two -->
+                <div class="col-lg-6 col-md-12 py-4 py-md-4 aside-stretch ">
+                    <div class="f-t -pbs">New to Jumia?</div>
+                    <p class="">Subscribe to our newsletter to get updates on our latest offers!</p>
+
+                    <div class="row g-3">
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Enter email address" aria-label="City">
+                        </div>
+
+                        <div class="col-sm">
+                            <button type="button" name="gender" value="male"
+                                class=" form-control btn btn-outline-light"><span>Male</span></button>
+                        </div>
+
+                        <div class="col-sm">
+                            <button type="button" name="gender" value="female"
+                                class=" form-control btn btn-outline-light"><span>Female</span></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- three -->
+                <div class="col-lg-3 col-md-12 py-4 py-md-4  ms-5 ">
+
+                    <div class="row g-1 mb-2 ">
+                        <div class="col-lg-3"><img src="imgs/icon.png" alt="" class="w-75 rounded"> </div>
+
+                        <div class=" col-lg-9">
+                            <div class=" ">DOWNLOAD JUMIA FREE APP</div>
+                            <p class="  ">Get access to exclusive offers!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row   row-cols-2">
+                        <div class="col ">
+                            <a href="#" class="btn btn-outline-light  " tabindex="-1" role="button"
+                                aria-disabled="true"> <i class="fab fa-apple  me-1" aria-hidden="true"></i>Apple
+                                Store</a>
+
+                        </div>
+
+                        <div class="col ">
+                            <a href="#" class="btn btn-outline-light" tabindex="-1" role="button"
+                                aria-disabled="true"><i class="fab fa-google-play   " aria-hidden="true"></i>Google
+                                Play</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end first row -->
+        </div>
+    </footer>
+
+
+
+    <footer class="footer2 text-white  pb-5 px-3 " style="background-color: #323232;">
+        <div class="container">
+
+
+            <!-- row -->
+            <div class="row py-4">
+                <!-- one -->
+                <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+
+                    <span class="footer-heading ">LET US HELP YOU</span>
+
+                    <ul class="list-unstyled pt-3">
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/help/">Help Center</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/contact/">Contact us</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/how-to-shop/">How to buy on Jumia?</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/how-to-pay/">How to pay on Jumia?</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/delivery-timelines/">Delivery timelines</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/sp-returns-refunds/">Return Policy </a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/jumia-corporate/">Corporate Services</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://docs.google.com/forms/d/1poBfqrj0bXCtkvJIm_24mLCTdvKJNebDB7-ATHZwRW4/edit">Report
+                                a
+                                Product</a></li>
+                    </ul>
+                </div>
+
+                <!-- two -->
+                <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                    <span class="footer-heading ">ABOUT JUMIA EGYPT</span>
+                    <ul class="list-unstyled pt-3">
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/about_us/?internal=footer">About
+                                us</a></li>
+                        <li><a class="text-decoration-none text-muted link-light" href="/careers/?internal=footer">Jumia
+                                Careers</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/terms-of-use/?internal=footer">Terms and Conditions</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/privacy/?internal=footer">Privacy
+                                Policy</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/jumia-express/?internal=footer">Jumia Express</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/jumia-mall/?internal=footer">Jumia
+                                Mall</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="/sp-jumia-services/?internal=footer">Jumia Logistics Services</a></li>
+                        <li><a class="text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/mlp-black-friday/">Jumia Black Friday</a></li>
+
+                    </ul>
+                </div>
+                <!-- three -->
+                <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                    <span class="footer-heading ">MAKE MONEY WITH JUMIA</span>
+                    <ul class="list-unstyled pt-3">
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://vendorhub.jumia.com.eg/terms-and-agreements/">Sell on Jumia</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/logistics-service-partner/?internal=footer">Become a
+                                Logistics Service Partner</a></li>
+                        <li><a class=" text-decoration-none text-muted link-light"
+                                href="https://www.jumia.com.eg/jforce-consultant/">Become a Sales Consultant (J-Force
+                                )</a></li>
+
+                    </ul>
+                </div>
+
+                <!-- four -->
+                <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
+                    <span class="footer-heading ">JUMIA INTERNATIONAL</span>
+                    <div class=" row row-cols-2">
+                        <ul class="list-unstyled pt-3">
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.dz/">Algeria</a></li>
+                            <li><a class="text-decoration-none text-muted link-light" href="https://www.jumia.ci/">Ivory
+                                    Coast </a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.com.gh/">Ghana</a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.co.ke/">Kenya</a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.ma/">Morocco</a></li>
+                        </ul>
+                        <ul class="list-unstyled pt-3">
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.com.ng/">Nigeria</a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.sn/">Senegal</a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.com.tn/">Tunisia</a></li>
+                            <li><a class="text-decoration-none text-muted link-light"
+                                    href="https://www.jumia.ug/">Uganda</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second row -->
+            <div class="row py-4 border-bottom border-secondary  ">
+                <!-- one -->
+                <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+
+                    <span class="footer-heading ">JOIN US ON</span>
+
+                    <div class="list-unstyled pt-2 pb-4">
+                        <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                                class="fab fa-facebook-f  socialIcon "></i></a>
+                        <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                                class="fab fa-twitter socialIcon  "></i></a>
+                        <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                                class="fab fa-instagram socialIcon"></i></a>
+                        <a class=" text-decoration-none me-3 fs-4 link-light" href="https://www.jumia.com.eg/help/"><i
+                                class="fab fa-youtube socialIcon"></i></a>
+
+                    </div>
+
+                </div>
+
+                <!-- two -->
+                <div class="col-lg-3 col-md-6  mb-md-0 mb-4">
+                    <span class="footer-heading ">PAYMENT METHODS</span>
+
+                    <div class="list-unstyled pt-2  pb-4">
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                            title="Payment on delivery"><i class="fas fa-hand-holding socialIcon "></i></a>
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                            title="Mastercard"><i class="fab fa-cc-mastercard  socialIcon "></i></i></a>
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                            title="Visa"><i class="fab fa-cc-visa  socialIcon "></i></a>
+                        <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-4 link-light"
+                            title="Fawry"><i class="fas fa-money-bill-wave socialIcon"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- end row tow -->
+
+
+
+            <!-- row three -->
+            <div class="row justify-content-end pt-2  ">
+                <div class="col-lg-8 col-md-7 ms-5">
+                    <div class="section-title text-center  ">
+                        <span class="me-2  ">
+                            <i class="far fa-star socialIcon"></i>
+                            <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                                title="Fawry">PRIMO</a>
+                        </span>
+                        <span class="me-2">
+                            <i class="fas fa-star-half-alt socialIcon"></i>
+
+                            <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                                title="Fawry">REWARDS</a>
+                        </span>
+                        <span class="me-2">
+                            <i class="fas fa-shield-alt socialIcon"></i>
+                            <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                                title="Fawry">PAY</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-4  ">
+                    <div class="section-title text-center  ">
+                        <span class="me-2">
+                            <img src="imgs/uk.svg" alt="" class="img-circle" style="width:20px">
+                            <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                                title="Fawry">English</a>
+                        </span>
+                        <span class="me-2">
+                            <!-- <i class="bi bi-shield-fill-check"></i> -->
+                            <img src="imgs/eg.svg" alt="" class="img-circle" style="width:18px">
+                            <a href="https://www.jumia.com.eg/help/" class=" text-decoration-none me-3 fs-6 link-light"
+                                title="Fawry">Arabic</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- end all footers -->
+
+    <!--  Bundle bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- custome js -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
